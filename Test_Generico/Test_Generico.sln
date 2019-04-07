@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Generico_Api", "Test_Generico\Test_Generico_Api.csproj", "{91669FCA-B8F9-4C7E-AE56-325A7ABEA7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Generico_Lib", "Test_Generico_Lib\Test_Generico_Lib.csproj", "{0B67BFB3-AB04-49D5-A97E-BA805DD884CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Generico_TestConsole", "Test_Generico_TestConsole\Test_Generico_TestConsole.csproj", "{4E9F02C7-EF33-4AFB-8810-BF1FF8868CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_User_TestConsole", "Test_User_TestConsole\Test_User_TestConsole.csproj", "{714B0957-9219-449B-BA7C-88B1639594A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_JavaScript_Web", "Test_JavaScript_Web\Test_JavaScript_Web.csproj", "{1B7A9E02-595E-4465-B02C-D9A226E144F2}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TG_db_Scripts", "TG_db_Scripts\TG_db_Scripts.sqlproj", "{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91669FCA-B8F9-4C7E-AE56-325A7ABEA7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91669FCA-B8F9-4C7E-AE56-325A7ABEA7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91669FCA-B8F9-4C7E-AE56-325A7ABEA7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91669FCA-B8F9-4C7E-AE56-325A7ABEA7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B67BFB3-AB04-49D5-A97E-BA805DD884CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B67BFB3-AB04-49D5-A97E-BA805DD884CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B67BFB3-AB04-49D5-A97E-BA805DD884CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B67BFB3-AB04-49D5-A97E-BA805DD884CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9F02C7-EF33-4AFB-8810-BF1FF8868CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9F02C7-EF33-4AFB-8810-BF1FF8868CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9F02C7-EF33-4AFB-8810-BF1FF8868CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9F02C7-EF33-4AFB-8810-BF1FF8868CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714B0957-9219-449B-BA7C-88B1639594A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714B0957-9219-449B-BA7C-88B1639594A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714B0957-9219-449B-BA7C-88B1639594A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714B0957-9219-449B-BA7C-88B1639594A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7A9E02-595E-4465-B02C-D9A226E144F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7A9E02-595E-4465-B02C-D9A226E144F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7A9E02-595E-4465-B02C-D9A226E144F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7A9E02-595E-4465-B02C-D9A226E144F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8610BC-D7A1-4643-AC2A-743C6F6871B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

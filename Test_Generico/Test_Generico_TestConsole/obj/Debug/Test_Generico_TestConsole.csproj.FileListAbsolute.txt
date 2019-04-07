@@ -1,0 +1,15 @@
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Test_Generico_TestConsole.exe.config
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Test_Generico_TestConsole.exe
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Test_Generico_TestConsole.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Test_Generico_Lib.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Test_Generico_Lib.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\obj\Debug\Test_Generico_TestConsole.exe
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\obj\Debug\Test_Generico_TestConsole.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\obj\Debug\Test_Generico_TestConsole.csprojResolveAssemblyReference.cache
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\RestSharp.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\RestSharp.xml
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Newtonsoft.Json.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Newtonsoft.Json.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\Newtonsoft.Json.xml
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\EntityFramework.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_TestConsole\bin\Debug\EntityFramework.xml

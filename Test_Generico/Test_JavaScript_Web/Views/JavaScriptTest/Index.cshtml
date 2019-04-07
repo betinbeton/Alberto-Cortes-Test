@@ -1,0 +1,249 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Java Script Test</h2>
+
+<br />
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-6">
+            <label>1 Define a prototype Class</label>
+            <div class="form-group">
+                <label for="employeeName">Employee Name</label>
+                <input type="text" class="form-control" id="employeeName" aria-describedby="nameHelp" placeholder="Please enter your name" required>
+                <small id="nameHelp" class="form-text text-muted">Enter the name that you mama give you</small>
+            </div>
+            <div class="form-group">
+                <label for="employeeLastName">Employee Last Name</label>
+                <input type="text" class="form-control" id="employeeLastName" aria-describedby="nameHelp" placeholder="Please enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label for="employeeSalary">Employee Salary</label>
+                <input type="text" class="form-control" id="employeeSalary" aria-describedby="nameHelp" placeholder="Please enter your salary" required>
+                <small id="nameHelp" class="form-text text-muted">Think in that number that will make you happy :)</small>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="employeeInfo()">Employee Info</button>
+            <button type="submit" class="btn btn-secondary" onclick="employeeIncreaseSalary()">Increase Salary</button>
+        </div>
+        <div class="col-lg-6" >
+            
+                <div>
+                    <label>2 Function called MultiplyBy </label>
+                    <br />
+                    <button type="submit" class="btn btn-info" onclick="MultiplyBy()">MultiplyBy</button>
+                </div>
+                     <br />
+                <div class="form-group">
+                    <label>3 Longest Country Name </label>
+                    <label for="longesCountrytName">County Names</label>
+                    <input type="text" class="form-control" id="longesCountrytName" aria-describedby="nameHelp" placeholder="Please enter a list of country names" required> 
+                    <small id="nameHelp" class="form-text text-muted">Enter a list of contry names example: ["Australia", "Germany", "United States of America"]</small>
+                </div>
+            <div>
+                <button type="submit" class="btn btn-success" onclick="Longest_Country_Name()">Find</button>
+            </div>
+                
+              
+            <br />
+            <div>
+                <label>4 Removes items from a dropdown list </label>
+                <br />
+                <select id="colorSelect">
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>White</option>
+                    <option>Black</option>
+                </select>
+                <input type="button" class="btn btn-primary"  onclick="removecolor()" value="Select and Remove">
+
+
+            </div>
+
+            <div class="form-group">
+                <label>5 add rows to a table</label>
+                <table id="sampleTable" border="1">
+                    <tr>
+                        <td>Row1 cell1</td>
+                        <td>Row1 cell2</td>
+                    </tr>
+                    <tr>
+                        <td>Row2 cell1</td>
+                        <td>Row2 cell2</td>
+                    </tr>
+                </table><br>
+                <input type="button" onclick="insert_Row()" value="Insert row" class="btn btn-primary" id="InsertRowValue" >
+
+            </div>
+
+            </div>
+         
+
+
+        </div>
+
+    </div>
+
+
+
+<script src="~/JsScripts/Employee.js"></script>
+<script>
+   
+    valEmpoyeeInfo = false;
+    var nameEm = document.getElementById("employeeName");
+    var lastNameEm = document.getElementById("employeeLastName");
+    var salaryEm = document.getElementById("employeeSalary");
+   
+   
+    function employeeInfo() {
+       // debugger
+
+      
+         
+
+            if (validation(nameEm, lastNameEm, salaryEm)) {
+                let employer = new Employee(nameEm.value, lastNameEm.value, parseInt(salaryEm.value,10));
+               alert(employer.employeeInfo());
+             
+             
+            }
+
+            valEmpoyeeInfo = true;
+      
+   
+
+    }
+
+    function employeeIncreaseSalary() {
+
+
+        if (valEmpoyeeInfo)
+        {
+
+            //debugger
+            if (validation(nameEm, lastNameEm, salaryEm)) {
+
+                let employer = new Employee(nameEm.value, lastNameEm.value, parseInt(salaryEm.value, 10));
+                employer.increaseSalary();
+                alert(employer.employeeInfo());
+                salaryEm.value = employer.salary();
+           
+            }
+        }
+        else
+        {
+            alert("Please get employee info first");
+          
+        }
+
+
+    }
+
+
+    function validation(name,lastName,salary)
+    {
+
+        isCorrect = true;
+
+        if (name.value == "") {
+            alert("please enter a name");
+            name.focus();
+            isCorrect = false;
+        }
+        else if (lastName.value == "") {
+            alert("please enter your last name");
+            lastName.focus();
+            isCorrect = false;
+           
+
+        }
+        else if (salary.value == "") {
+            alert("please enter a salary");
+            salary.focus();
+            isCorrect = false;
+           
+        }
+        else if (isNaN(salary.value)) {
+            alert("please enter type number in salary");
+            salary.value = "";
+            salary.focus();
+            isCorrect = false;
+           
+        }
+
+
+
+
+        return isCorrect;
+
+    }
+
+
+    function MultiplyBy()
+    {
+       // debugger
+        var mul1 = 2 * 3 * 4;
+        var mul2 = 4 * 3 * 4;
+
+        console.log("console.log(mul(2)(3)(4)); // output :" + mul1);
+        console.log("console.log(mul(4)(3)(4)); // output :" + mul2);
+        
+
+
+    }
+
+    function Longest_Country_Name ()
+    {
+       // debugger
+
+        var listCountryNames = document.getElementById("longesCountrytName").value.trim();
+     
+        listCountryNames = listCountryNames.replace("[", "");
+        listCountryNames = listCountryNames.replace("]", "");
+        listCountryNames = listCountryNames.trim();
+        var listCountryNamesSplit = listCountryNames.split(",");
+       
+        var longestWord = listCountryNamesSplit.sort(function (a, b) {
+            return b.length - a.length;
+        });
+
+
+
+
+        alert("The longest country name: " + longestWord[0].replace('"', "").replace('"', ""));
+
+
+    }
+
+    function removecolor()
+    {
+       // debugger
+        var colorSelected = document.getElementById("colorSelect").selectedIndex;
+        var colorOptions = document.getElementById("colorSelect");
+
+        if (colorOptions.length > 0) {
+            colorOptions.remove(colorSelected);
+        }
+        else
+        {
+            alert("There are no more colors ");
+        }
+
+    }
+
+    function insert_Row()
+    {
+        var table = document.getElementById("sampleTable");
+        var value = document.getElementById("InsertRowValue").value;
+        var row = table.insertRow(0);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        cell1.innerHTML = value;
+        cell2.innerHTML = value;
+
+    }
+
+
+</script>

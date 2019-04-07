@@ -1,0 +1,15 @@
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\obj\Debug\Test_Generico_Lib.csprojResolveAssemblyReference.cache
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\Test_Generico_Lib.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\Test_Generico_Lib.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\obj\Debug\Test_Generico_Lib.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\obj\Debug\Test_Generico_Lib.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\RestSharp.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\RestSharp.xml
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\Newtonsoft.Json.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\Newtonsoft.Json.pdb
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\Newtonsoft.Json.xml
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\Test_Generico_Lib.dll.config
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\EntityFramework.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\EntityFramework.SqlServer.dll
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\EntityFramework.xml
+D:\c#\TestGenerico\Test_Generico\Test_Generico_Lib\bin\Debug\EntityFramework.SqlServer.xml
